@@ -1,0 +1,124 @@
+.para1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(250, 235, 215, 0.747);
+}
+
+.parallax1{
+    background: url(https://etimg.etb2bimg.com/thumb/msid-81395040,width-1200,resizemode-4/.jpg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+
+.para1{
+    padding: 15% 0;
+}
+
+/* nav */
+
+.nav1{
+    background-color: rgba(255, 255, 255, 0.938);
+    height: 45px;
+    position: sticky;
+    top: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    /* z-index:100; */
+    
+}
+
+.nav1 a{
+    text-decoration: none;
+}
+.nav1 li{
+    margin-top: -10%;
+    transition: 1.0s;
+
+}
+.nav1 li:hover{
+    background-color: rgb(7, 2, 2);
+    border-radius: 50%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    
+
+}
+.nav1 h2{
+    color: rgb(20, 108, 224);
+    margin-left: 2%;
+}
+
+.nav1 ul{
+    display: flex;
+    margin-left: 75%;
+    justify-content: space-evenly;
+   
+    
+    
+}
+
+/* content */
+
+.content h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.col1 {
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/jv2p6kw0/poster/y/n/h/medium-endgame3jumbo-avengers-endgame-jumbo-poster-for-room-original-imafgyfvxjzuvkfu.jpeg?q=20&crop=false) ;
+    background-size: cover;
+    object-fit:fill;
+        height: 360px;
+        width: 250px;
+        margin: 10px;
+        border-radius: 8px;
+        transition: .5s;
+}
+.col1:hover{
+    scale: 1.05;
+}
+
+.col1 button{
+   background-color: rgb(8, 103, 227);
+   width: 80px;
+   height: 40px;
+   border-radius: 8px;
+   border: 1px inset rgba(255, 255, 255, 0);
+   text-align: center;
+   margin-top: 124%;
+   margin-left: 34%;
+   color: white;
+  
+ 
+}
+
+/* parallx 2 */
+
+.para2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(250, 235, 215, 0.747);
+}
+
+.parallax2{
+    background: url(https://m.media-amazon.com/images/I/91JhhkJz0EL._AC_UF894,1000_QL80_.jpg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+
+.para2{
+    padding: 15% 0;
+}
+
+/* footer */
+#last{
+    color: rgb(8, 103, 227);
+}
